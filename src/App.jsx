@@ -1,5 +1,14 @@
-import {CustomerReviews, Services, SpecialOffer, Subscribe, SuperQuality, Footer, Hero, PopularProducts} from './sections';
-import Nav from './components/Nav';
+import {
+  CustomerReviews,
+  Services,
+  SpecialOffer,
+  Subscribe,
+  SuperQuality,
+  Footer,
+  Hero,
+  PopularProducts,
+} from "./sections";
+import Nav from "./components/Nav";
 
 const App = () => (
   <main className="relative">
@@ -29,6 +38,6 @@ const App = () => (
       <Footer />
     </section>
   </main>
-)
+);
 
 export default App;
